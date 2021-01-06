@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Straw Hat Clicker</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getSave(), getGPS(), gold_per_second(), displayGolds(), displayGPS(), displayShop(), showOwned_Cost(),calculate(), save()">
+    <header>
+        <h1>Straw Hat clicker</h1>
+    </header>
+    
+    
+    <main>
+        <div class= "section_top">
+            <section class="gold" id="gold"></section>
+            <section class="gps" id="gps"></section>
+            <button class="click" onclick="addGold(myclick)"></button>
+        </div>
+
+        <div class= "shop" id="shop">
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="cr">Alexis Inc 2020 Ⓡ.</p>
+        <button class="button"onclick="theclear()">Reset the game</button>
+    </footer>
+</body>
+</html>
